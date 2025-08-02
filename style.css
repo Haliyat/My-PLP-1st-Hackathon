@@ -90,19 +90,22 @@ body {
   min-height: 300px;
   overflow: hidden;
 }
-
 .hero-section {
   background-image: url('myself.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 50vh;
-  position: relative;
+  background-position: center center;
+
+  width: 100%;
+  min-height: 100vh;  
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #003366;
+  align-items: center;
+  
+  background-color: #003366; 
+  position: relative;
 }
+
 
 .hero-text {
   background-color: rgba(0, 0, 0, 0.5);
