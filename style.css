@@ -41,18 +41,18 @@ body {
 /* Hero Section */
 .hero-section {
   position: relative;
-  width: 100%;
+  width: 2%;
   height: 50vh;
   overflow: hidden;
 }
 
-.hero-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+/*.hero-img {
+  width: 50%;
+  height: 50%;
+  object-fit: 100%;
   object-position: top center;
   filter: brightness(70%);
-}
+}*/
 
 .hero-text {
   position: absolute;
@@ -93,7 +93,7 @@ body {
 
 .hero-section {
   background-image: url('myself.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 50vh;
